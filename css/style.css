@@ -1,0 +1,125 @@
+
+body {
+    background-image: url('https://i.pinimg.com/736x/30/01/c3/3001c3db1353f35e4ff0efd9c5f74ca2.jpg');
+    background-size: cover; 
+    background-position: center center; 
+    background-attachment: fixed; 
+    margin: 0;
+    font-family: Arial, sans-serif; 
+    color: #fff; 
+}
+
+.titulo {
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+    
+    .inline1{
+    display: inline;
+    background-color: #cdeccc;
+    padding: 5px;
+    color: black;
+    }
+    
+    .inline2{
+    display: inline;
+    background-color: #edd269;
+    padding: 5px;
+    }
+
+    .inline3 {
+    display: inline;
+    background-color: #e88460;
+    padding: 5px;
+    }
+
+
+    .block1 {
+    display: block;
+    background-color: #ab3dfb;
+    color: white;
+    margin: 10px 0;
+    padding: 10px;
+    }
+
+    .block2 {
+    display: block;
+    background-color: #c057fc;
+    color: white;
+    margin: 10px 0;
+    padding: 10px;
+    }
+
+    .block3 {
+    display: block;
+    background-color:#d571fd;
+    color: white;
+    margin: 10px 0;
+    padding: 10px;
+    }
+
+    .inline-block1 {
+        display: inline-block;
+        background-color: #d6496c;
+        color: white;
+        padding: 10px;
+        margin: 5px;
+        border-radius: 5px;
+    }
+
+    .inline-block2 {
+        display: inline-block;
+        background-color: #7db8a2;
+        color: white;
+        padding: 10px;
+        margin: 5px;
+        border-radius: 5px;
+    }
+
+    .inline-block3 {
+        display: inline-block;
+        background-color: #3b8952;
+        color: white;
+        padding: 10px;
+        margin: 5px;
+        border-radius: 5px;
+    }
+
+
+    .none {
+    display: none;
+    }
+
+    .hoverinicio ul {
+        padding-left: 20px;
+    }
+
+    .hoverinicio li {
+        margin: 10px 0;
+        font-size: 16px;
+    }
+
+    .hover1:hover {
+        color: #ccff33; 
+    }
+
+    .hover2:hover {
+        color: #ff3366; 
+    }
+
+    .hover3:hover {
+        color: #ffcc33;
+    }
+
+    .hover4:hover {
+        color: #60b99a; 
+    }
+    .python-icon {
+    color: #4b8bbe;
+    margin-right: 5px;
+    }
+
+    .main-content {
+    font-family: Arial, sans-serif;
+    }
