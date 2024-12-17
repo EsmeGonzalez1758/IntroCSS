@@ -1,125 +1,233 @@
-
 body {
     background-image: url('https://i.pinimg.com/736x/30/01/c3/3001c3db1353f35e4ff0efd9c5f74ca2.jpg');
-    background-size: cover; 
-    background-position: center center; 
-    background-attachment: fixed; 
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
     margin: 0;
-    font-family: Arial, sans-serif; 
-    color: #fff; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f5f5f5;
 }
 
 .titulo {
     padding: 20px;
     text-align: center;
+    color: #f5f5f5;
+    font-size: 2.5rem;
+}
+
+section {
+    text-align: justify;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 20px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.inline1 {
+    display: inline;
+    padding: 5px;
+    color: #F26B0F;
+    font-size: 1rem;
+    background-color: #FCC737;
+    margin: 3px;
+}
+
+.inline2{
+    display: inline;
+    padding: 5px;
+    color: #FCC737;
+    font-size: 1rem;
+    background-color: #F26B0F;
+    margin: 3px;
+}
+
+.inline3 {
+    display: inline;
+    padding: 5px;
+    color: #F8FAFC;
+    font-size: 1rem;
+    background-color: #E73879;
+    margin: 3px;
+}
+
+.block1{
+    display: block;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid black;
+    box-sizing: border-box;
+    color: #8B5DFF;
+    font-size: 1rem;
+    background-color: #F0C1E1;
+}
+
+
+.block2{
+    display: block;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid black;
+    box-sizing: border-box;
+    color: #6A42C2;
+    font-size: 1rem;
+    background-color: #CB9DF0;
+}
+
+.block3 {
+    display: block;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid black;
+    box-sizing: border-box;
+    color: #00ced1;
+    font-size: 1rem;
+    background-color: #563A9C;
+}
+
+.inline-block1 {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 1rem;
+    color: #640D5F;
+    background-color: #0D92F4;
+}
+
+.inline-block2 {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 1rem;
+    color: #D91656;
+    background-color: #77CDFF;
+}
+
+.inline-block3 {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 1rem;
+    color: #FCCD2A;
+    background-color: #F95454;
+}
+
+.none {
+    display: none;
+}
+
+.hoverinicio ul {
+    padding-left: 20px;
+}
+
+.hoverinicio li {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+.hover1:hover {
+    color: #8a2be2;
+}
+
+.hover2:hover {
+    color: #db7093;
+}
+
+.hover3:hover {
+    color: #ee82ee;
+}
+
+.hover4:hover {
+    color: #87ceeb;
+}
+
+/* Tarjetas */
+.cajitas-main {
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cajita {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    background-color: azure;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
     color: white;
 }
-    
-    .inline1{
-    display: inline;
-    background-color: #cdeccc;
-    padding: 5px;
-    color: black;
-    }
-    
-    .inline2{
-    display: inline;
-    background-color: #edd269;
-    padding: 5px;
-    }
 
-    .inline3 {
-    display: inline;
-    background-color: #e88460;
-    padding: 5px;
-    }
+.cajita-titulo {
+    margin-bottom: 60px;  /* Ajustado para subir los párrafos */
+    font-size: 1.5rem;
+}
 
+.cajita p {
+    position: relative;
+    z-index: 1;
+    color: #f5f5f5;
+    margin-top: -20px;  /* Ajustado para subir los párrafos */
+}
 
-    .block1 {
-    display: block;
-    background-color: #ab3dfb;
-    color: white;
-    margin: 10px 0;
-    padding: 10px;
-    }
+/* Colores de las cajitas */
+.cajita.verde {
+    background-color: #28a745;
+}
 
-    .block2 {
-    display: block;
-    background-color: #c057fc;
-    color: white;
-    margin: 10px 0;
-    padding: 10px;
-    }
+.cajita.azul {
+    background-color: #007bff;
+}
 
-    .block3 {
-    display: block;
-    background-color:#d571fd;
-    color: white;
-    margin: 10px 0;
-    padding: 10px;
-    }
+.cajita.roja {
+    background-color: #dc3545;
+}
 
-    .inline-block1 {
-        display: inline-block;
-        background-color: #d6496c;
-        color: white;
-        padding: 10px;
-        margin: 5px;
-        border-radius: 5px;
-    }
+.cajita.morada {
+    background-color: #6f42c1;
+}
 
-    .inline-block2 {
-        display: inline-block;
-        background-color: #7db8a2;
-        color: white;
-        padding: 10px;
-        margin: 5px;
-        border-radius: 5px;
-    }
+.cajita::before {
+    border-radius: 60%;
+    content: '';
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: -120px;
+    left: 50%;
+    transform: translate(-50%);
+    opacity: 0.5;
+}
 
-    .inline-block3 {
-        display: inline-block;
-        background-color: #3b8952;
-        color: white;
-        padding: 10px;
-        margin: 5px;
-        border-radius: 5px;
-    }
+.cajita.verde::before {
+    background-color: #218838;
+}
 
+.cajita.azul::before {
+    background-color: #0056b3;
+}
 
-    .none {
-    display: none;
-    }
+.cajita.roja::before {
+    background-color: #c82333;
+}
 
-    .hoverinicio ul {
-        padding-left: 20px;
-    }
-
-    .hoverinicio li {
-        margin: 10px 0;
-        font-size: 16px;
-    }
-
-    .hover1:hover {
-        color: #ccff33; 
-    }
-
-    .hover2:hover {
-        color: #ff3366; 
-    }
-
-    .hover3:hover {
-        color: #ffcc33;
-    }
-
-    .hover4:hover {
-        color: #60b99a; 
-    }
-    .python-icon {
-    color: #4b8bbe;
-    margin-right: 5px;
-    }
-
-    .main-content {
-    font-family: Arial, sans-serif;
-    }
+.cajita.morada::before {
+    background-color: #5a2d82;
+}
